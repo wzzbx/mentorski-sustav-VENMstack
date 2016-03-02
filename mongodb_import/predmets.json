@@ -1,0 +1,45 @@
+{"_id":{"$oid":"5627b72788f30a10182fb946"},"bodovi":5,"ime":"Linearna algebra","izborni":2,"kod":"SIT001","sem_izvanredni":1,"sem_redovni":1}
+{"_id":{"$oid":"5627b72788f30a10182fb947"},"bodovi":6,"ime":"Osnove elektrotehnike","izborni":2,"kod":"SIT003","sem_izvanredni":1,"sem_redovni":1}
+{"_id":{"$oid":"5627b72788f30a10182fb948"},"bodovi":7,"ime":"Digitalna i mikroprocesorska tehnika","izborni":2,"kod":"SIT004","sem_izvanredni":2,"sem_redovni":1}
+{"_id":{"$oid":"5627b72788f30a10182fb949"},"bodovi":4,"ime":"Uporaba računala","izborni":2,"kod":"SIT005","sem_izvanredni":1,"sem_redovni":1}
+{"_id":{"$oid":"5627b72788f30a10182fb94a"},"bodovi":2,"ime":"Engleski jezik 1","izborni":2,"kod":"SIT006","sem_izvanredni":1,"sem_redovni":1}
+{"_id":{"$oid":"5627b72788f30a10182fb94b"},"bodovi":7,"ime":"Analiza 1","izborni":2,"kod":"SIT007","sem_izvanredni":2,"sem_redovni":2}
+{"_id":{"$oid":"5627b72788f30a10182fb94c"},"bodovi":6,"ime":"Osnove elektronike","izborni":2,"kod":"SIT008","sem_izvanredni":2,"sem_redovni":2}
+{"_id":{"$oid":"5627b72788f30a10182fb94d"},"bodovi":7,"ime":"Arhitektura i organizacija digitalnih računala","izborni":2,"kod":"SIT009","sem_izvanredni":3,"sem_redovni":2}
+{"_id":{"$oid":"5627b72788f30a10182fb94e"},"bodovi":8,"ime":"Uvod u programiranje","izborni":2,"kod":"SIT010","sem_izvanredni":3,"sem_redovni":2}
+{"_id":{"$oid":"5627b72788f30a10182fb94f"},"bodovi":2,"ime":"Engleski jezik 2","izborni":2,"kod":"SIT011","sem_izvanredni":2,"sem_redovni":2}
+{"_id":{"$oid":"5627b72788f30a10182fb950"},"bodovi":6,"ime":"Primijenjena i numerička matematika","izborni":2,"kod":"SIT012","sem_izvanredni":4,"sem_redovni":3}
+{"_id":{"$oid":"5627b72788f30a10182fb951"},"bodovi":8,"ime":"Programske metode i apstrakcije","izborni":2,"kod":"SIT013","sem_izvanredni":4,"sem_redovni":3}
+{"_id":{"$oid":"5627b72788f30a10182fb952"},"bodovi":6,"ime":"Baze podataka","izborni":2,"kod":"SIT014","sem_izvanredni":5,"sem_redovni":3}
+{"_id":{"$oid":"5627b72788f30a10182fb953"},"bodovi":6,"ime":"Informacijski sustavi","izborni":2,"kod":"SIT015","sem_izvanredni":4,"sem_redovni":3}
+{"_id":{"$oid":"5627b72788f30a10182fb954"},"bodovi":4,"ime":"Tehnički Engleski jezik","izborni":2,"kod":"SIT016","sem_izvanredni":5,"sem_redovni":3}
+{"_id":{"$oid":"5627b72788f30a10182fb955"},"bodovi":5,"ime":"Računalne mreže","izborni":2,"kod":"SIT017","sem_izvanredni":5,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb956"},"bodovi":5,"ime":"Operacijski sustavi","izborni":2,"kod":"SIT018","sem_izvanredni":5,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb957"},"bodovi":5,"ime":"Objektno programiranje","izborni":1,"kod":"SIT020","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb958"},"bodovi":5,"ime":"Baze podataka 2","izborni":1,"kod":"SIT021","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb959"},"bodovi":5,"ime":"Mrežne usluge i programiranje","izborni":1,"kod":"SIT022","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb95a"},"bodovi":5,"ime":"Arhitektura osobnih računala","izborni":1,"kod":"SIT023","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb95b"},"bodovi":5,"ime":"Projektiranje i upravljanje računalnim mrežama","izborni":1,"kod":"SIT024","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb95c"},"bodovi":5,"ime":"Projektiranje informacijskih sustava","izborni":1,"kod":"SIT025","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb95d"},"bodovi":5,"ime":"Informatizacija poslovanja","izborni":1,"kod":"SIT026","sem_izvanredni":6,"sem_redovni":4}
+{"_id":{"$oid":"5627b72788f30a10182fb95e"},"bodovi":2,"ime":"Ekonomika i organizacija poduzeća","izborni":2,"kod":"SIT027","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb95f"},"bodovi":6,"ime":"Analiza 2","izborni":2,"kod":"SIT028","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb960"},"bodovi":2,"ime":"Industrijska praksa","izborni":2,"kod":"SIT029","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb961"},"bodovi":5,"ime":"Arhitektura poslužiteljskih računala","izborni":1,"kod":"SIT030","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb962"},"bodovi":5,"ime":"Sigurnost računala i podataka","izborni":1,"kod":"SIT031","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb963"},"bodovi":5,"ime":"Programski alati na UNIX računalima","izborni":1,"kod":"SIT032","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb964"},"bodovi":5,"ime":"Napredno Windows programiranje","izborni":1,"kod":"SIT033","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb965"},"bodovi":5,"ime":"Objektno orijentirano modeliranje","izborni":1,"kod":"SIT034","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb966"},"bodovi":5,"ime":"Programiranje u Javi","izborni":1,"kod":"SIT035","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb967"},"bodovi":5,"ime":"Programiranje na Internetu","izborni":1,"kod":"SIT036","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb968"},"bodovi":5,"ime":"Elektroničko poslovanje","izborni":1,"kod":"SIT037","sem_izvanredni":7,"sem_redovni":5}
+{"_id":{"$oid":"5627b72788f30a10182fb969"},"bodovi":5,"ime":"Upravljanje poslužiteljskim računalima","izborni":1,"kod":"SIT039","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb96a"},"bodovi":5,"ime":"Programiranje u C#","izborni":1,"kod":"SIT040","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb96b"},"bodovi":5,"ime":"Društveni informacijski sustavi","izborni":1,"kod":"SIT041","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb96c"},"bodovi":5,"ime":"Oblikovanje Web stranica","izborni":1,"kod":"SIT042","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb96d"},"bodovi":5,"ime":"Vođenje projekata i dokumentacija","izborni":1,"kod":"SIT043","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb96e"},"bodovi":5,"ime":"Informatizacija proizvodnje","izborni":1,"kod":"SIT044","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb96f"},"bodovi":5,"ime":"Analiza i obrada podataka","izborni":1,"kod":"SIT045","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb970"},"bodovi":8,"ime":"Završni rad","izborni":2,"kod":"SIT046","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb971"},"bodovi":4,"ime":"Njemački jezik","izborni":1,"kod":"SSZP40","sem_izvanredni":8,"sem_redovni":6}
+{"_id":{"$oid":"5627b72788f30a10182fb972"},"bodovi":4,"ime":"Talijanski jezik","izborni":1,"kod":"SSZP50","sem_izvanredni":8,"sem_redovni":6}
