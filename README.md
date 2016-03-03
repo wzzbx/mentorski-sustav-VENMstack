@@ -8,8 +8,8 @@
   
   https://www.mongodb.org -> instalirajte mongodb ver 3.0.x kasnije verzije su pravile određene probleme. Nakon instalacije potrebno    je kreirati direktorij ( C:\data\db ) Pronaci direktorij u koji ste instalirali MongoDB te pokrenuti mongod servis Naredbe za import   kolekcija u bazu ( kolekcije cete pronaci u mongodb_import )
 
-  # mongoimport --db mSustav --collection users --file users.json
-  # mongoimport --db mSustav --collection predmets --file predmets.json
+    # mongoimport --db mSustav --collection users --file users.json
+    # mongoimport --db mSustav --collection predmets --file predmets.json
   
 https://docs.mongodb.org/manual/reference/program/mongoimport/
 
