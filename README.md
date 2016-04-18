@@ -27,5 +27,5 @@ https://docs.mongodb.org/manual/reference/program/mongoimport/
     npm run dev
     Nakon toga potrebno je otici na http://localhost:8000
 
-    username: mentor@oss.hr , mentor1@oss.hr  , red@oss.hr
+    username: mentor@oss.hr , mentor1@oss.hr  , nbrajnov84@gmail.com , monika@gmail.com , luka_kralik@oss.hr , matko_music@oss.hr
     password: 123   // isti password za sve korisnike
