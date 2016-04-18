@@ -36,12 +36,13 @@ module.exports = {
     presets: ['es2015'],
     plugins: ['transform-runtime']
   },
-  /*devServer: {
+  devServer: {
     //host: 'localhost',
-    //port: 8000,
+    port: 8000,
     //contentBase: __dirname ,
-    proxy: {
-      '/*' : 'http://localhost:8080'  //radi ali duplicira podatke s VUE.JS
-    }}*/
+    /*proxy: {
+      '*' : 'http://localhost:8080'  //radi ali duplicira podatke s VUE.JS
+    }*/
+    }
   
 }

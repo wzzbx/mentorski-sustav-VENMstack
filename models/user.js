@@ -10,12 +10,16 @@ var Predmet = require('./predmet');
 //var ObjectId = userSchema.ObjectId;
 var userSchema = mongoose.Schema ({
     //id      : Object,
+    ime : String,
+    prezime : String,
+    brIndex : String,
 	email    : { type: String, required: true, index: { unique: true }},
     password : { type: String, required: true },
     isAdmin  : Boolean,
     status   : String,
     predmeti : [],
     studenti : [],
+    polozeni : [],
 			
 });
 

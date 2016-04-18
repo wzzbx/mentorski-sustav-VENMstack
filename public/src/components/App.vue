@@ -42,14 +42,17 @@ export default {
         }
       }
     }
-
-  
+ 
 </script>
 <style>
 
+.navbar {
+    border-radius: 0px;
+}
 .navbar-nav > li > a, .navbar-brand {
     margin-top: 0px;
     margin-right: 2em;
+
 }
 
 .jumbotron {

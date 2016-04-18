@@ -39,12 +39,17 @@ module.exports = function(app,passport) {
         
     	User.find({ email : req.params.email })
             .exec(function(err, data) {
-    		   var ids = _.map(data[0].predmeti, function(id) { 
-                            return (id);
+
+    		   var ids = _.map(data[0].predmeti, function(o) { 
+                            return (o.id);
                              });
-              
-    		    		Predmet.find({_id: { $in : ids }}, function(err, data) {	
-    		                res.send(data);
+               console.log(ids);
+               var upisani = _.map(data[0].predmeti, function(id){ return (id); });
+               console.log(upisani);
+               
+                   		Predmet.find({_id: { $in : ids }}, function(err, predmeti) {	
+
+                            res.send({predmeti,upisani});
     		});
 		});
    });
@@ -75,10 +80,10 @@ module.exports = function(app,passport) {
         res.send(200);
     });*/
 
-    app.get('/user/:email/predmet/:id',function(req,res){
+    app.get('/user/:email/predmet/:id/:ponavlja',function(req,res){
         
         User.update({ email : req.params.email },
-            { $addToSet : { predmeti : req.params.id }}).exec(function(err){
+            { $addToSet : { predmeti : { "id" : req.params.id, "ponavlja" : req.params.ponavlja} }}).exec(function(err){
                 if (err) throw err; 
             })
             res.sendStatus(200);
@@ -86,12 +91,54 @@ module.exports = function(app,passport) {
     app.get('/user/:email/removePredmet/:id',function(req,res){
         
         User.update({ email : req.params.email },
-            { $pull : { predmeti : req.params.id }}).exec(function(err){
+            { $pull : { predmeti : { "id" : req.params.id }}}).exec(function(err){
+                if (err) throw err; 
+            })
+            res.sendStatus(200);
+        });
+    app.get('/user/:email/removePolozeniPredmet/:id',function(req,res){
+        
+        User.update({ email : req.params.email },
+            { $pull : { polozeni : { "id" : req.params.id }}}).exec(function(err){
                 if (err) throw err; 
             })
             res.sendStatus(200);
         });
 
+
+
+    app.get('/user/:email/polozeno/:id/:ocjena', function(req, res){
+        User.update({ email : req.params.email },
+            { $pull : { polozeni : { "id" : req.params.id }}}).exec(function(err){
+                if (err) throw err; 
+            })
+            res.sendStatus(200);
+
+        User.update({ email : req.params.email },
+            { $addToSet : { polozeni : { "id" : req.params.id, "ocjena" : req.params.ocjena} }}).exec(function(err){
+                if (err) throw err; 
+            })
+            res.sendStatus(200);
+
+    });
+     app.get('/user_polozeni/:email',function(req,res){
+        
+        User.find({ email : req.params.email })
+            .exec(function(err, data) {
+
+               var ids = _.map(data[0].polozeni, function(o) { 
+                            return (o.id);
+                             });
+               console.log(ids);
+               var polozeni = _.map(data[0].polozeni, function(id){ return (id); });
+               console.log(polozeni);
+               
+                        Predmet.find({_id: { $in : ids }}, function(err, predmeti) {    
+
+                            res.send({predmeti,polozeni});
+            });
+        });
+   });
     
 
 };

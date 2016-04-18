@@ -12,6 +12,7 @@
     "cookie-parser": "^1.4.1",
     "cors": "^2.7.1",
     "express": "*",
+    "express-history-api-fallback": "^2.0.0",
     "express-jwt": "^3.3.0",
     "express-session": "^1.13.0",
     "jsonwebtoken": "^5.5.4",

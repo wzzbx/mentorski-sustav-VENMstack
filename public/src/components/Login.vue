@@ -25,23 +25,21 @@
 </template>
 <script lang='babel'>
 
-import {router} from '../index'
+import { router } from '../index'
 import auth from '../auth'
-
-
 
 export default {
 
   data() {
     return {
+      
       user: {
         email:    '',
         password: ''
       },
         error: '',
         msg:'',
-            
-    }
+      }
   },
   
   methods: {
@@ -51,7 +49,6 @@ export default {
         var user = {
             email    : this.user.email,
             password : this.user.password }; 
-
       
     this.$http
         .post('http://localhost:8080/login', user, (data) => {
@@ -68,9 +65,8 @@ export default {
                 else
                   { router.go({ name: 'student', params: { email: this.user.email }}); }  
     }).error((err) => console.log(err))
-        
-        
-    }
+           
+             }
   }
   
 }
