@@ -20,6 +20,7 @@
     "mongodb": "^2.1.6",
     "mongoose": "^4.4.2",
     "morgan": "^1.6.1",
+    "now": "^0.13.3",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",

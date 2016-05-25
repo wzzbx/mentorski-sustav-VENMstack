@@ -1,3 +1,42 @@
+<script>
+//import {router} from '../index';
+import auth from '../auth'
+
+export default {
+
+  data() {
+    return {
+      
+      studenti: ''
+    
+    }
+  },
+  
+  ready: 
+      function() {
+
+        this.getStudent();
+  },
+
+  methods: {
+   
+    getStudent() {
+      this.$http
+        .get('http://localhost:8080/mentor/'+ this.$route.params.email, (data) => {
+          
+          this.studenti = data;
+        }, { headers: auth.getAuthHeader()
+        }).error((err) => console.log(err))
+    }
+  },
+  route: {
+    canActivate() {
+            return  auth.user.isAdmin && auth.user.authenticated
+    }
+  }
+
+}
+</script>
 <template>
 
 <div class="container">
@@ -41,42 +80,4 @@
   </div>
 </template>
 
-<script>
-//import {router} from '../index';
-import auth from '../auth'
 
-export default {
-
-  data() {
-    return {
-      
-      studenti: ''
-    
-    }
-  },
-  
-  ready: 
-      function() {
-
-        this.getStudent();
-  },
-
-  methods: {
-   
-    getStudent() {
-      this.$http
-        .get('http://localhost:8080/mentor/'+ this.$route.params.email, (data) => {
-          
-          this.studenti = data;
-        }, { headers: auth.getAuthHeader()
-        }).error((err) => console.log(err))
-    }
-  },
-  route: {
-    canActivate() {
-            return  auth.user.isAdmin && auth.user.authenticated
-    }
-  }
-
-}
-</script>

@@ -1,28 +1,3 @@
-<template>
-
-<div class="container">
-
-<div class="col-sm-4 col-sm-offset-4">
-
-    <h1 class=" text-primary"><span class="fa fa-sign-in glyphicon glyphicon-education"></span> Mentorski sustav</h1>
-
-    <!-- LOGIN FORMA -->
-    <form @submit.prevent="submit()">
-        <div class="form-group">
-            <label>Email</label>
-            <input type="email" class="form-control" v-model="user.email" placeholder="Enter your email" required>
-        </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" v-model="user.password" placeholder="Enter your password" required>
-        </div>
-
-        <button type="submit" class="btn btn-warning btn-lg btn-block">Login</button>
-    </form>
-</div>
-
-</div>
-</template>
 <script lang='babel'>
 
 import { router } from '../index'
@@ -71,6 +46,32 @@ export default {
   
 }
 </script>
+<template>
+
+<div class="container">
+
+<div class="col-sm-4 col-sm-offset-4">
+
+    <h1 class=" text-primary"><span class="fa fa-sign-in glyphicon glyphicon-education"></span> Mentorski sustav</h1>
+
+    <!-- LOGIN FORMA -->
+    <form @submit.prevent="submit()">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" v-model="user.email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" v-model="user.password" placeholder="Enter your password" required>
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg btn-block">Login</button>
+    </form>
+</div>
+
+</div>
+</template>
+
 
 
 

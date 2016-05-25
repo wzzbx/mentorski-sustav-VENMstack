@@ -9,7 +9,8 @@ var predmetSchema = mongoose.Schema({
     bodovi         : Number,
     sem_redovni    : String,
     sem_izvanredni : String,
-    izborni        : Number   
+    izborni        : Number,
+    semestar       : String
  
 });
 

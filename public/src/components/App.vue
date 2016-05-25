@@ -1,25 +1,3 @@
-<template>
-<div class="container-full-bg">
-    <div class="container-special">
-      <div class="jumbotron"></div>
-    </div>
-</div>
-
-<nav class="navbar navbar-inverse" v-if="user.authenticated">
-  <ul class="nav navbar-nav navbar-right">
-    <li><a v-link="{ name:'mentorlistastudent', params: { email: user.email }}" v-if="user.isAdmin"><span class="glyphicon glyphicon-user"></span> Lista studenata</a></li>
-    <li v-if="user.isAdmin"><a><span class="glyphicon glyphicon-king"></span> Dobrodošli, {{ user.email }}</a></li>
-    <li v-if="!user.isAdmin"><a><span class="glyphicon glyphicon-king"></span> Dobrodošli, {{ $route.params.email }}</a></li>
-    <li><a v-link="'/login'" v-if="user.authenticated" @click="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-    <li><a v-link="'/login'" v-if="!user.authenticated"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-  </ul>
-</nav>
-
-<div class="container-fluid">
-    <router-view></router-view>
- </div>  
-</template>
-
 <script>
 import auth from '../auth'
 //import {router} from '../index'
@@ -44,6 +22,29 @@ export default {
     }
  
 </script>
+<template>
+<div class="container-full-bg">
+    <div class="container-special">
+      <div class="jumbotron"></div>
+    </div>
+</div>
+
+<nav class="navbar navbar-inverse" v-if="user.authenticated">
+  <ul class="nav navbar-nav navbar-right">
+    <li><a v-link="{ name:'mentorlistastudent', params: { email: user.email }}" v-if="user.isAdmin"><span class="glyphicon glyphicon-user"></span> Lista studenata</a></li>
+    <li v-if="user.isAdmin"><a><span class="glyphicon glyphicon-king"></span> Dobrodošli, {{ user.email }}</a></li>
+    <li v-if="!user.isAdmin"><a><span class="glyphicon glyphicon-king"></span> Dobrodošli, {{ $route.params.email }}</a></li>
+    <li><a v-link="'/login'" v-if="user.authenticated" @click="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    <li><a v-link="'/login'" v-if="!user.authenticated"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+  </ul>
+</nav>
+
+<div class="container-fluid">
+    <router-view></router-view>
+ </div>  
+</template>
+
+
 <style>
 
 .navbar {
